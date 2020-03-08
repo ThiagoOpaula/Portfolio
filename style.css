@@ -19,7 +19,7 @@ header {
 }
 
 #nav-bar {
-  width: 400px;
+  width: 50vh;
   background-color: rgba(166, 52, 70, 1);
   float: right;
 }
@@ -27,6 +27,7 @@ header {
 #nav-bar ul {
   list-style: none;
   display: flex;
+  justify-content: space-evenly;
 }
 
 #nav-bar ul li {
