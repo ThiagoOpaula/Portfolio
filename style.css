@@ -40,11 +40,12 @@ header {
 #nav-bar ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 #nav-bar ul li {
   text-align: center;
+  padding-right: 70px;
 }
 
 .nav-link {
