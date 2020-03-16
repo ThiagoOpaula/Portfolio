@@ -1,6 +1,7 @@
-html{
+html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -9,18 +10,30 @@ body {
   font-family: 'Open Sans', 'Tahoma', 'Verdana', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(168, 43, 29, 1);
+}
+
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(166, 52, 70, 1);
+  background-color: rgba(168, 43, 29, 1);
   font-size: 15px;
   font-weight: 600;
 }
 
 #nav-bar {
   width: 50vh;
-  background-color: rgba(166, 52, 70, 1);
+  background-color: rgba(168, 43, 29, 1);
   float: right;
 }
 
@@ -31,15 +44,14 @@ header {
 }
 
 #nav-bar ul li {
-  width: 27.5%;
   text-align: center;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
-  font-size: 21;
-  color: rgb(240, 233, 233);
+  font-size: 21px;
+  color: white;
 }
 
 #welcome-section {
@@ -49,23 +61,25 @@ header {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: rgba(13, 27, 30, 1);
-  color: rgba(240, 233, 237, 1);
+  background-color: rgba(30, 30, 36, 1);
+  color: rgba(255, 250, 255, 1);
   font-size: 35px;
 }
 
+/* projetos apartir daqui */
+
 #projects {
   text-align: center;
-  padding: 5rem 2rem;
-  background-color: rgba(58, 80, 107, 1);
+  padding: 8.25rem 2rem;
+  padding-top: 50px;
+  background-color: rgba(255, 250, 255, 1);
+  color: rgba(30, 30, 36, 1);
 }
 
-.projects-tile-header {
-  max-width: 770px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.12rem solid white;
-  font-size: 3.1rem;
-  color: white;
+.projects-title-header {
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
 .projects-grid {
@@ -79,18 +93,23 @@ header {
 }
 
 .project-image {
-  height: 200;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
-a.profile-tile {
-  text-decoration: none;
+.project-title {
+  font-size: 22.5px;
+  font-weight: 525;
 }
 
-.project-title {
-  color: black;
-  font-size: 25px;
+a.profile-tile {
+  text-decoration: none;
+  color: rgba(30, 30, 36, 1);
+}
+
+#contact {
+  background-color: rgba(30, 30, 36, 1);
 }
 
 #contact {
@@ -118,11 +137,11 @@ a.profile-tile {
   width: 14em;
 }
 
-.icone {
+.icon {
   margin-right: 50px;
 }
 
-a.icone {
+a.icon {
   text-decoration: none;
   font-size: 20px;
 }
@@ -135,12 +154,4 @@ a.icone {
 .subtitle {
   color:rgb(240, 233, 233);
   text-align: center;
-}
-
-@media only screen and (min-width: 600px) {
-  .project-image {
-    height: 200;
-    width: 53%;
-    object-fit: cover;
-  }
 }
