@@ -94,7 +94,7 @@ header {
 
 .project-image {
   height: 200px;
-  width: 100%;
+  width: 63%;
   object-fit: cover;
 }
 
@@ -109,17 +109,13 @@ a.profile-tile {
 }
 
 #contact {
-  background-color: rgba(30, 30, 36, 1);
-}
-
-#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: rgba(13, 27, 30, 1);
+  background-color: rgba(30, 30, 36, 1);
   color: rgba(240, 233, 237, 1);
 }
 
