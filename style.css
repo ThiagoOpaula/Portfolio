@@ -115,7 +115,7 @@ a.profile-tile {
   width: 100%;
   height: 100vh;
   background-color: rgba(30, 30, 36, 1);
-  color: rgba(255, 250, 255, 1);;
+  color: rgba(255, 250, 255, 1);
 }
 
 .contact-header {
@@ -127,7 +127,7 @@ a.profile-tile {
 #profile-link {
   display: flex;
   justify-content: center;
-  width: 14em;
+  max-width: 100%;
 }
 
 .icon {
@@ -140,16 +140,16 @@ a.icon {
 }
 
 .fab {
-   color:rgba(255, 250, 255, 1);;
+   color:rgba(255, 250, 255, 1);
    font-size: 100px;
 }
 
 .fas {
-  color:rgba(255, 250, 255, 1);;
+  color:rgba(255, 250, 255, 1);
   font-size: 100px;
 }
 
 .subtitle {
-  color:rgba(255, 250, 255, 1);;
+  color:rgba(255, 250, 255, 1);
   text-align: center;
 }
